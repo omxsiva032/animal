@@ -5,8 +5,14 @@
 	<style>
 		iframe {
 			width: 100%;
-			height: 100%;
+			height: 80vh; /* adjust this value to fit your needs */
 			border: none; /* optional - removes border around the iframe */
+		}
+
+		@media screen and (max-width: 767px) {
+			iframe {
+				height: 50vh; /* adjust this value to fit your needs */
+			}
 		}
 	</style>
 </head>
